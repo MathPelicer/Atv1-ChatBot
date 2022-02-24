@@ -1,0 +1,36 @@
+{"intents":[
+    { "tag": "saudacao",
+      "patterns":["Ola","Opa","Oi"],
+      "responses": ["oi","como vai"],
+      "context": [""]
+    },
+    { "tag": "despedida",
+      "patterns":["valeu","tchau","Obrigado","tks"],
+      "responses": ["ate breve","falou"],
+      "context": [""]
+    },
+    { "tag": "data_prova",
+      "patterns":["Quando sera a prova?","A prova será em que dia?"],
+      "responses": ["no dia 25"],
+      "context": [""]
+    },
+    {
+        "tag": "iniciacao_cientifica",
+        "patterns": ["iniciacao", "iniciacao cientifica"],
+        "responses": ["O Programa de Iniciacao Cientifica visa introduzir os alunos de graduacao na metodologia científica aplicada a projetos de pesquisa cientifica e tecnologica."],
+        "context": []
+    },
+    {
+        "tag": "participar_iniciacao_cientifica",
+        "patterns": ["como participar da iniciacao?", "como entrar na iniciacao?", "como entrar na iniciacao cientifica?", "como participar da iniciacao cientifica?"],
+        "responses": ["O aluno deve procurar um professor do departamento, com disponibilidade para orientacao e verificar as vagas disponiveis para projetos de iniciacao. Tendo sido selecionado um aluno, o professor deve entao elaborar uma proposta de projeto individual, dentro dos moldes exigidos pela Comissao de Iniciacao Cientifica e encaminha-la a Coordenacao. O aluno nao podera ter nenhuma dependencia e o tempo de dedicacao para a realizacao do projeto eh de no minimo 16 horas semanais. A Fundacao Educacional Inaciana Pe. Saboia de Medeiros oferece bolsas de iniciacao cientifica aos melhores alunos, pelo prazo de ate um ano."],
+        "context": []
+    },
+    {
+        "tag": "materias_iniciacao_cientifica",
+        "patterns": ["quais as materias da iniciacao?", "quais as materias da iniciacao cietifica?"],
+        "responses": ["Administracao, Ciencia da Computacao, Ciencias Sociais, Engenhaia Civil, Engenharia de Mateiais, Engeharia de Producao, Engenharia Eletrica, Engenharia Mecanica, Engenharia Quimica, Engenharia Textil, Fisica e Matematica"],
+        "context": []
+    }
+  ]
+}
